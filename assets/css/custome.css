@@ -1,0 +1,11 @@
+.az_image_area {
+    /* background-image: url("../custome_assets/Specialities.png"); */
+    background-position: center center;
+    background-size: cover;
+    padding: 0px 0 171px 0;
+    position: relative;
+}
+
+.text-blue    {
+    color: #6827fd;
+}
