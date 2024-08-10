@@ -6,6 +6,44 @@
     position: relative;
 }
 
-.text-blue    {
+.text-blue {
     color: #6827fd;
+}
+
+@media (min-width: 1140px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.social-icons a:hover {
+    background: #6827fd;
+}
+
+.social-icons a {
+    background: #6827fd75;
+    color: #ffffff;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .social-icons a {
+        margin-right: 5px;
+    }
+}
+
+.text-align-justify {
+    text-align: justify;
 }
