@@ -10,6 +10,13 @@
     color: #6827fd;
 }
 
+.witr_slick_height {
+    height: 500px;
+}
+
+.witr_ds_content_inner h2,
+.witr_ds_content_inner h3 {}
+
 @media (min-width: 1140px) {
     .container {
         max-width: 1350px;
@@ -47,3 +54,5 @@
 .text-align-justify {
     text-align: justify;
 }
+
+.witr_ds_content.witr_slick_height {}
