@@ -44,6 +44,9 @@
     color: #ffffff;
 }
 
+.top-right-menu .social-icons a {
+    height: 0px;
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .social-icons a {
@@ -62,7 +65,8 @@
 .az_faq_area,
 .az_portfolio_area,
 .azela_blog_area,
-.az_brand_area {
+.az_brand_area,
+.ser_page_service {
     padding: 40px 0 50px;
 }
 
