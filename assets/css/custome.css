@@ -2,12 +2,12 @@
     /* background-image: url("../custome_assets/Specialities.png"); */
     background-position: center center;
     background-size: cover;
-    padding: 0px 0 171px 0;
+    padding: 0px 0 40px 0;
     position: relative;
 }
 
 .text-blue {
-    color: #6827fd;
+    color: #6827fd !important;
 }
 
 .witr_slick_height {
@@ -21,6 +21,10 @@
     .container {
         max-width: 1350px;
     }
+}
+
+.em-service-icon img {
+    width: 3.5rem;
 }
 
 
@@ -55,4 +59,35 @@
     text-align: justify;
 }
 
-.witr_ds_content.witr_slick_height {}
+.az_fea_area,
+.az_choose_area,
+.az_about_area,
+.az_team_area,
+.az_faq_area,
+.az_portfolio_area {
+    padding: 40px 0 50px;
+}
+
+/* {
+    padding: 120px 0px 40px 0px;
+} */
+
+.witr_counter_number_inn h3,
+.witr_counter_number_inn span {
+    font-size: 32px Im !important;
+}
+
+@media (min-width: 1365px) and (max-width: 1660px) {
+    .witr_ds_content {
+        height: 700px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .witr_ds_content {
+        height: 175px !important;
+        background-size: cover;
+        background-position: center center;
+        overflow: hidden;
+    }
+}
