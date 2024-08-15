@@ -11,7 +11,8 @@
 }
 
 .witr_ds_content_inner h2,
-.witr_ds_content_inner h3 {}
+.witr_ds_content_inner h3 {
+}
 
 @media (min-width: 1140px) {
     .container {
@@ -35,9 +36,9 @@
     margin-bottom: 5px;
 }
 
-.social-icons a:hover {
-    background: #6827fd;
-}
+    .social-icons a:hover {
+        background: #6827fd;
+    }
 
 .social-icons a {
     background: #6827fd75;
@@ -114,12 +115,25 @@
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .witr_ds_content {
-        height: 480px !important;
+        height: 400px !important;
     }
 }
 
-@media (min-width: 1199px) {
+@media (min-width: 1365px) {
     .witr_ds_content {
-        height: 480px !important;
+        height: 670px !important;
+        /*width : 1200px !important;*/
+    }
+}
+@media (min-width: 1400px) {
+    .witr_ds_content {
+        height: 750px !important;
+        /*width : 1200px !important;*/
+    }
+}
+@media (min-width: 2000px) {
+    .witr_ds_content {
+        height: 850px !important;
+        /*width : 1200px !important;*/
     }
 }
