@@ -126,3 +126,113 @@
     }
 }
 
+.vidContain {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+    .vidContain .vid {
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    /* Just styling the content of the div, the *magic* in the previous rules */
+ .azela_content {
+    position: absolute;
+    text-align: center;
+    color: #dc0000;
+    padding: 10px;
+}
+
+.rcm_ar_expert_parent {
+    position: relative;
+    overflow: hidden;
+    margin-top: 14px;
+    background: #ccc;
+}
+
+    .rcm_ar_expert_parent:hover .rcm_ar_expert {
+        background-color: rgba(0, 173, 239, .73);
+    }
+
+    .rcm_ar_expert_parent:hover .rcm_ar_expert {
+        top: 0;
+    }
+
+    .rcm_ar_expert_parent figure {
+        margin: 0;
+        height: 300px;
+    }
+
+.rcm_ar_expert {
+    background-color: rgba(29, 29, 29, .7);
+    text-align: center;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: calc(100% - 46px);
+    left: 0;
+    transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+}
+
+.rcm_ar_expert_cols {
+    width: 100%;
+    text-align: left;
+}
+
+    .rcm_ar_expert_cols span.icon_bg {
+        background: #000;
+        width: 50px;
+        font-size: 35px;
+        display: inline-block;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        margin-right: 10px;
+    }
+
+.rcm_ar_expert_cols span {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.show-hov {
+    padding: 10px;
+    border-top: 1px solid #0683b3;
+    transition: height 0.5s ease 0s;
+    -moz-transition: height 0.5s ease 0s;
+    -webkit-transition: height 0.5s ease 0s;
+    -o-transition: height 0.5s ease 0s;
+    height: 100%
+}
+
+.rcm_ar_expert ul {
+    list-style: none;
+}
+
+    .rcm_ar_expert ul li {
+        padding: 4px 0;
+    }
+
+        .rcm_ar_expert ul li::before {
+            content: '\f105';
+            margin-right: 12px;
+            font: 400 18px / 24px FontAwesome;
+            color: #fff;
+            transition: .33s all ease;
+            height: 26px;
+            float: left;
+        }
