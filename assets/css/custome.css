@@ -119,21 +119,10 @@
     }
 }
 
-@media (min-width: 1365px) {
+@media (min-width: 1199px) {
     .witr_ds_content {
-        height: 670px !important;
+        height: 480px !important;
         /*width : 1200px !important;*/
     }
 }
-@media (min-width: 1400px) {
-    .witr_ds_content {
-        height: 750px !important;
-        /*width : 1200px !important;*/
-    }
-}
-@media (min-width: 2000px) {
-    .witr_ds_content {
-        height: 850px !important;
-        /*width : 1200px !important;*/
-    }
-}
+
