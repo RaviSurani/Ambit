@@ -83,10 +83,6 @@
     border-radius: 30px 30px 30px 30px;
 }
 
-a {
-    color: #6827fd !important;
-}
-
 @media (max-width: 320px) {
     .witr_ds_content {
         height: 140px !important
