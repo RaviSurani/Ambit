@@ -2325,7 +2325,7 @@ ul.page-numbers a.page-numbers {
 .witr_ac_style:before {
     position: absolute;
     content: '\ea99';
-    right: 30px;
+    right: 5px;
     font-family: IcoFont!important;
     font-weight:400;
 }
