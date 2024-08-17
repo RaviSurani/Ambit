@@ -269,7 +269,7 @@
 				witrbtslick.slick({
 					infinite: true,
 					autoplay: true,
-					autoplaySpeed: 6000,
+					autoplaySpeed: 2000,
 					speed: 2000,					
 					slidesToShow: 1,
 					slidesToScroll: 1,
