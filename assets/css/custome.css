@@ -124,7 +124,7 @@
     border-radius: 30px 30px 30px 30px;
 }
 
-@media (max-width: 320px) {
+/*@media (max-width: 320px) {
     .witr_ds_content {
         height: 140px !important
     }
@@ -165,7 +165,7 @@
         height: 670px !important;
     }
 }
-
+*/
 .video-breadcumb-area {
     position: relative;
     height: 20rem;
@@ -296,4 +296,191 @@
     align-items: center;
     justify-items: center;
     align-content: center;
+}
+
+/* Default styles for large screens (desktops) */
+.witr_ds_content {
+    /*width: 1900px !important;*/
+    height: 900px !important;
+}
+
+/* Medium screens (tablets, small desktops) */
+@media (max-width: 1600px) {
+    .witr_ds_content {
+        /*width: 1600px !important;*/ /* Adjusts width */
+        height: 757px !important; /* Adjusts height to maintain aspect ratio */
+    }
+}
+
+@media (max-width: 1400px) {
+    .witr_ds_content {
+        /*width: 1400px !important;*/
+        height: 662px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .witr_ds_content {
+        /*width: 1200px !important;*/
+        height: 567px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .witr_ds_content {
+        /*width: 1024px !important;*/
+        height: 483px !important;
+    }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 768px) {
+    .witr_ds_content {
+        /*width: 768px !important;*/
+        height: 362px !important;
+    }
+}
+
+/* Very small screens (extra small devices) */
+@media (max-width: 480px) {
+    .witr_ds_content {
+        /*width: 480px !important;*/
+        height: 226px !important;
+    }
+}
+
+/* Extra small screens (mobile devices) */
+@media (max-width: 320px) {
+    .witr_ds_content {
+        /*width: 320px !important;*/
+        height: 151px !important;
+    }
+}
+.fifty-state {
+    /*text-shadow: 0 0 2px #6A0DAD, 0 0 4px #6A0DAD, 0 0 6px #6A0DAD, 0 0 8px #6A0DAD;*/
+    /*animation: glow 1.5s ease-in-out infinite alternate;*/
+    /*animation: bounceIn 3s infinite;*/
+    animation: shake 1s infinite;
+    /*animation: rotateIn 1s ease-in infinite;*/
+    /*animation: fadeIn 2s ease-in infinite;*/
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1); /* Normal size */
+    }
+
+    50% {
+        transform: scale(1.1); /* Slightly larger */
+    }
+
+    100% {
+        transform: scale(1); /* Back to normal size */
+    }
+}
+
+/* Keyframes for the slide-in animation */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* End in the original position */
+    }
+}
+
+/* Keyframes for the glowing effect */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 2px #6A0DAD, 0 0 4px #6A0DAD, 0 0 6px #6A0DAD, 0 0 8px #6A0DAD;
+    }
+
+    to {
+        text-shadow: 0 0 3px #6A0DAD, 0 0 5px #6A0DAD, 0 0 7px #6A0DAD, 0 0 9px #6A0DAD;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    75% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        transform: rotate(-200deg);
+        opacity: 0;
+    }
+
+    to {
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.video-breadcumb-area-bg {
+    background: url(../custome_assets/Service_RCM_page_Hover.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+h3 {
+text-transform:uppercase !important;
+}
+
+.medi_singleService h3 {
+font-size : 19px !important;
+}
+
+.azela_content h4 {
+    font-size: 20px;
+    color: #fff;
 }
