@@ -184,6 +184,7 @@
     z-index: 2;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* Just styling the content of the div, the *magic* in the previous rules */
@@ -262,11 +263,16 @@
     height: 100%
 }
 
-.rcm_ar_expert ul {
-    list-style: none;
+.rcm_ar_expert ul,
+.az_fea_area li {
+    list-style: unset;
+}
+.portfolio_style2 .prot_content h3 a:hover {
+    color: #fff;
 }
 
-.rcm_ar_expert ul li {
+.rcm_ar_expert ul li,
+.az_fea_area li {
     padding: 4px 0;
 }
 
