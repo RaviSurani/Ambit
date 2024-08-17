@@ -284,3 +284,10 @@
     list-style: unset;
     margin-left: 1rem;
 }
+
+.display_grid_center {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
