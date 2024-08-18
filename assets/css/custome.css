@@ -72,12 +72,16 @@
 }
 
 .prior_authorization-bg {
-    background: url(../custome_assets/prior_authorizatio.jpg);
+    background: url(../custome_assets/prior_authorizatio.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     color: #fff;
+}
+
+.prior_authorization-bg p{
+    color: #000;
 }
 
 .prior_authorization-bg .em-service {
@@ -264,9 +268,10 @@
 }
 
 .rcm_ar_expert ul,
-.az_fea_area li {
+.az_fea_area li,.az_faq_area li {
     list-style: unset;
 }
+
 .portfolio_style2 .prot_content h3 a:hover {
     color: #fff;
 }
@@ -307,8 +312,10 @@
 /* Medium screens (tablets, small desktops) */
 @media (max-width: 1600px) {
     .witr_ds_content {
-        /*width: 1600px !important;*/ /* Adjusts width */
-        height: 757px !important; /* Adjusts height to maintain aspect ratio */
+        /*width: 1600px !important;*/
+        /* Adjusts width */
+        height: 757px !important;
+        /* Adjusts height to maintain aspect ratio */
     }
 }
 
@@ -356,6 +363,7 @@
         height: 151px !important;
     }
 }
+
 .fifty-state {
     /*text-shadow: 0 0 2px #6A0DAD, 0 0 4px #6A0DAD, 0 0 6px #6A0DAD, 0 0 8px #6A0DAD;*/
     /*animation: glow 1.5s ease-in-out infinite alternate;*/
@@ -367,15 +375,18 @@
 
 @keyframes pulse {
     0% {
-        transform: scale(1); /* Normal size */
+        transform: scale(1);
+        /* Normal size */
     }
 
     50% {
-        transform: scale(1.1); /* Slightly larger */
+        transform: scale(1.1);
+        /* Slightly larger */
     }
 
     100% {
-        transform: scale(1); /* Back to normal size */
+        transform: scale(1);
+        /* Back to normal size */
     }
 }
 
@@ -383,12 +394,14 @@
 @keyframes slideIn {
     0% {
         opacity: 0;
-        transform: translateX(100%); /* Start off-screen to the right */
+        transform: translateX(100%);
+        /* Start off-screen to the right */
     }
 
     100% {
         opacity: 1;
-        transform: translateX(0); /* End in the original position */
+        transform: translateX(0);
+        /* End in the original position */
     }
 }
 
@@ -472,12 +485,13 @@
     background-attachment: fixed;
     color: #fff;
 }
+
 h3 {
-text-transform:uppercase !important;
+    text-transform: uppercase !important;
 }
 
 .medi_singleService h3 {
-font-size : 19px !important;
+    font-size: 19px !important;
 }
 
 .azela_content h4 {
