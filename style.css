@@ -973,9 +973,9 @@ a.dtbtn {
     background: #6827fd;
     max-width:auto;
 }
-a.dtbtn:hover {
-    background: #3aa40c;
-}
+ a.dtbtn:hover {
+     background: #270202;
+ }
 /* ===== 3. Slider Area CSS ===== */
 .witr_slick_height {
     height: 900px;
