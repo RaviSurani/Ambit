@@ -498,3 +498,116 @@ h3 {
     font-size: 20px;
     color: #fff;
 }
+
+.service_contact_us .witr_6 {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_contact_us {
+    position: relative;
+    height: auto;
+    min-height: 20rem;
+    /*width: 100%;*/
+    overflow: hidden;
+}
+
+.service_contact_us_bg {
+    background: url(../custome_assets/Do_Hover_Background_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.service_contact_us_bg_2 {
+    background: url(../custome_assets/Services/credentialing_enrollments/Contact_US_Background_Image_of_Credential_Service.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.service_contact_us_bg_2 p{
+    color: #fff !important;
+}
+
+.service_contact_us_bg_2 h3 {
+    color: #fff !important;
+}
+
+
+.service_contact_us_bg_3 {
+    background: url(../custome_assets/Services/credentialing_enrollments/Contact_US_Background_Image_of_Credential_Service.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.service_contact_us_bg_3 p {
+    color: #fff !important;
+}
+
+.service_contact_us_bg_3 h3 {
+    color: #fff !important;
+}
+
+.service_contact_us_bg_3 input,select,textarea {
+background : #ffffff !important;
+}
+
+/*ul {
+list-style : none outside none;
+}
+*/
+.custom-list {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0;
+    margin: 0;
+}
+
+    .custom-list li {
+        background-color: #f8f9fa; /* Light background for each item */
+        border-left: 4px solid #007bff; /* Blue bar on the left */
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+
+        .custom-list li strong {
+            color: #343a40; /* Darker color for bold text */
+        }
+
+        .custom-list li:hover {
+            background-color: #e2e6ea; /* Slightly darker on hover */
+        }
+
+.insurance-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 10px; /* Space between items */
+    margin-top: 10px;
+}
+
+    .insurance-list li {
+        background-color: #f8f9fa; /* Light background */
+        padding: 10px;
+        border-radius: 5px;
+        border-left: 4px solid #007bff; /* Blue bar on the left */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+        .insurance-list li:hover {
+            background-color: #e9ecef; /* Slightly darker background on hover */
+        }
