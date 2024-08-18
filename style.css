@@ -971,6 +971,7 @@ a.dtbtn {
     padding: 11px 25px;
     color: #fff;
     background: #6827fd;
+    max-width:auto;
 }
 a.dtbtn:hover {
     background: #3aa40c;
