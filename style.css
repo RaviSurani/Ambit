@@ -963,7 +963,7 @@ table#wp-calendar td {
 /* menu button */
 a.dtbtn {
     border: none;
-    display: block;
+    /* display: block; */
     font-size: 16px;
     margin-left: 20px;
     font-weight: 500;
