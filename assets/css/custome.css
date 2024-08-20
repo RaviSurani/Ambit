@@ -629,3 +629,13 @@ list-style : none outside none;
 .all_cal_color .text-black {
     color: #000 !important;
 }
+
+.text-box {
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
