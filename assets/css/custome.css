@@ -526,7 +526,7 @@ h3 {
 }
 
 .service_contact_us_bg_2 {
-    background: url(../custome_assets/Services/credentialing_enrollments/Contact_US_Background_Image_of_Credential_Service.png);
+    background: url(../custome_assets/contact_us_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -544,7 +544,7 @@ h3 {
 
 
 .service_contact_us_bg_3 {
-    background: url(../custome_assets/Services/credentialing_enrollments/Contact_US_Background_Image_of_Credential_Service.png);
+    background: url(../custome_assets/contact_us_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -625,6 +625,7 @@ list-style : none outside none;
     background-color: #e9ecef;
     /* Slightly darker background on hover */
 }
-.all_cal_color .text-black{
+
+.all_cal_color .text-black {
     color: #000 !important;
 }
