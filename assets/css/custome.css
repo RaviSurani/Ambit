@@ -645,3 +645,67 @@ list-style : none outside none;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
+
+.cost-saving-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.calculator, .summary {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.slider-container {
+    margin-bottom: 20px;
+}
+
+.slider-label {
+    margin-bottom: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.note {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.summary div {
+    margin-bottom: 10px;
+}
+
+.summary .total {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.summary-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-bottom-line{
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+    background: #6827fd;
+    margin: 0 auto;
+}
+
+.summary span {
+    margin-bottom: 10px;
+    margin-top:10px;
+}
