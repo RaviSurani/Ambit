@@ -596,7 +596,12 @@ list-style : none outside none;
 
 .custom-list li:hover {
     background-color: #e2e6ea;
+    color: #000;
     /* Slightly darker on hover */
+}
+.em-service:hover .custom-list li{
+    background-color: #e2e6ea;
+    color: #000;
 }
 
 .insurance-list {
