@@ -710,16 +710,6 @@ input[type="range"] {
     margin-top:10px;
 }
 
-
-.privacy-policy-bg {
-    background: url(../custome_assets/Ambit_Healthcare_Privacy_Policy.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    color: #000;
-}
-
 .privacy-policy-list {
     list-style: none;
     padding: 0;
