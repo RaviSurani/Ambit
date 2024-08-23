@@ -192,6 +192,28 @@
     justify-content: center;
 }
 
+.img-breadcumb-area {
+    position: relative;
+    height: 200px;
+    /* min-height: 200px; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-breadcumb-area img {
+    position: absolute;
+    z-index: 0;
+}
+
+.img-breadcumb-area .witr_6 {
+    position: relative;
+    width: 100%;
+    /* z-index: 2; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
 /* Just styling the content of the div, the *magic* in the previous rules */
 .azela_content {
     /* position: absolute; */
