@@ -326,68 +326,8 @@
     justify-items: center;
     align-content: center;
 }
-/*
-/* Default styles for large screens (desktops) */
-.witr_ds_content {
-    /*width: 1900px !important;*/
-    height: 900px !important;
-}
 
-/* Medium screens (tablets, small desktops) */
-@media (max-width: 1600px) {
-    .witr_ds_content {
-        /*width: 1600px !important;*/
-        /* Adjusts width */
-        height: 757px !important;
-        /* Adjusts height to maintain aspect ratio */
-    }
-}
 
-@media (max-width: 1400px) {
-    .witr_ds_content {
-        /*width: 1400px !important;*/
-        height: 662px !important;
-    }
-}
-
-@media (max-width: 1200px) {
-    .witr_ds_content {
-        /*width: 1200px !important;*/
-        height: 567px !important;
-    }
-}
-
-@media (max-width: 1024px) {
-    .witr_ds_content {
-        /*width: 1024px !important;*/
-        height: 483px !important;
-    }
-}
-
-/* Small screens (mobile devices) */
-@media (max-width: 768px) {
-    .witr_ds_content {
-        /*width: 768px !important;*/
-        height: 362px !important;
-    }
-}
-
-/* Very small screens (extra small devices) */
-@media (max-width: 480px) {
-    .witr_ds_content {
-        /*width: 480px !important;*/
-        height: 226px !important;
-    }
-}
-
-/* Extra small screens (mobile devices) */
-@media (max-width: 320px) {
-    .witr_ds_content {
-        /*width: 320px !important;*/
-        height: 151px !important;
-    }
-}
-*/
 
 @media screen and (min-width: 1200px) {
   .witr_ds_content {
