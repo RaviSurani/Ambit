@@ -187,7 +187,7 @@
     }
     /*======== slick slider ==========*/
      .witr_ds_content {
-         height: 980px !important;
+         height: 575px !important;
     }
 }
 /* ------------------------------------------------- Old Desktop :992 ---------------------------------------------------*/
@@ -1096,7 +1096,7 @@
     }
     /*=========== Slick area css ===============*/
 	.witr_ds_content {
-		height: 600px !important;
+		height: 480px !important;
 	}
      .text-right .witr_ds_content_inner h1, .text-right .witr_ds_content_inner h2, .text-right .witr_ds_content_inner h3, .text-right .witr_ds_content_inner p, .text-left .witr_ds_content_inner h1, .text-left .witr_ds_content_inner h2, .text-left .witr_ds_content_inner h3, .text-left .witr_ds_content_inner p, .text-center .witr_ds_content_inner h1, .text-center .witr_ds_content_inner h2, .text-center .witr_ds_content_inner h3, .text-center .witr_ds_content_inner p {
          width: 100% !important;
@@ -2232,7 +2232,7 @@
     }
     /*=========== Slick area 2 css ===============*/
 	.witr_ds_content {
-		height: 500px !important;
+		height: 10rem !important;
 		background-size: cover;
 		background-position: center center;
 		overflow: hidden;
