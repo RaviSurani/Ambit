@@ -1665,6 +1665,35 @@
     <script src="./assets/js/jquery.meanmenu.js"></script>
     <script src="./assets/js/ajax-mail.js"></script>
     <script src="./assets/js/theme.js"></script>
+    <script>
+        const slides = document.querySelectorAll('.banner-slide');
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+let currentSlide = 0;
+
+function showSlide(index) {
+  const totalSlides = slides.length;
+  if (index >= totalSlides) {
+    currentSlide = 0;
+  } else if (index < 0) {
+    currentSlide = totalSlides - 1;
+  } else {
+    currentSlide = index;
+  }
+  const offset = -currentSlide * 100;
+  document.querySelector('.banner-slider').style.transform = `translateX(${offset}%)`;
+}
+
+nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
+prevButton.addEventListener('click', () => showSlide(currentSlide - 1));
+
+// Auto-slide every 5 seconds
+setInterval(() => showSlide(currentSlide + 1), 5000);
+
+// Initial slide
+showSlide(currentSlide);
+
+    </script>
 </body>
 
 </html>
